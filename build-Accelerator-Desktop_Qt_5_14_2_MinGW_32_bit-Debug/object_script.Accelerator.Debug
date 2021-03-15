@@ -1,0 +1,13 @@
+debug/main.o
+debug/accelerator.o
+debug/autorization.o
+debug/user.o
+debug/edit_data.o
+debug/about.o
+debug/qrc_images.o
+debug/qrc_Keyboard.o
+debug/moc_accelerator.o
+debug/moc_autorization.o
+debug/moc_user.o
+debug/moc_edit_data.o
+debug/moc_about.o

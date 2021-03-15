@@ -1,0 +1,13 @@
+release/main.o
+release/accelerator.o
+release/autorization.o
+release/user.o
+release/edit_data.o
+release/about.o
+release/qrc_images.o
+release/qrc_Keyboard.o
+release/moc_accelerator.o
+release/moc_autorization.o
+release/moc_user.o
+release/moc_edit_data.o
+release/moc_about.o
