@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QDialog" name="About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>385</width>
+    <height>295</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>О программе</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/img/pic/MainWindow/about.ico</normaloff>:/img/pic/MainWindow/about.ico</iconset>
+  </property>
+  <widget class="QLabel" name="text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>370</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Программа &quot;Accelerator&quot;, версия 1.0.
+Авторские права не защищены.
+Среда разработки: Qt Creator, язык C++
+Полное время выполнения проекта: 2 недели
+
+Программа предназначена для освоения и раз-
+вития навыка слепого метода печати. В конце
+каждой главы есть итоговый урок, прохожде-
+ние которого закрепляет изученное.
+
+Настоятельно рекомендуется проходить уро-
+ки с минимальным количеством ошибок и не
+халтурить!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>385</width>
+     <height>295</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/img/pic/MainWindow/bg.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>250</y>
+     <width>96</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+border-style: outset;
+     min-width: 5em;
+     padding: 6px;
+     border: 1px solid #404040;
+     border-width: 2px;
+     border-radius: 8px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #999999, stop: 1 #404040);
+	color: white;
+}
+
+QPushButton:pressed {
+	 color:rgb(200,200,200);
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #404040, stop: 1 #999999);
+ }
+
+QPushButton:disabled {
+	color:rgb(200,200,200);
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+									  stop: 0 #555555, stop: 1 #999999);
+}
+
+ QPushButton:hover {
+     border-color: green;
+ }
+
+ QPushButton:default {
+     border-color: navy; /* делаем кнопку по умолчанию выпуклой */
+ }</string>
+   </property>
+   <property name="text">
+    <string>Закрыть</string>
+   </property>
+  </widget>
+  <zorder>bg</zorder>
+  <zorder>text</zorder>
+  <zorder>close</zorder>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>pic/MainWindow/background.jpg</file>
+        <file>pic/MainWindow/icon.ico</file>
+        <file>pic/MainWindow/keyboard.png</file>
+        <file>pic/Autorization/home.png</file>
+        <file>pic/MainWindow/bg.jpg</file>
+        <file>pic/Autorization/auto_icon.ico</file>
+        <file>pic/Autorization/avatar.ico</file>
+        <file>pic/Autorization/home.ico</file>
+        <file>pic/MainWindow/about.ico</file>
+        <file>pic/MainWindow/intro.png</file>
+    </qresource>
+</RCC>
